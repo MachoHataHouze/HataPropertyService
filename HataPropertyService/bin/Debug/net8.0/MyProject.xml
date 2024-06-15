@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HataPropertyService</name>
+    </assembly>
+    <members>
+        <member name="M:HataPropertyService.Controllers.PropertyController.AddProperty(HataPropertyService.Controllers.PropertyController.PropertyDto)">
+            <summary>
+            Этот метод выполняет вычисления.
+            </summary>
+            <param name="value">Входное значение для вычислений.</param>
+            <returns>Результат вычислений.</returns>
+        </member>
+        <member name="T:HataPropertyService.Migrations.PropertyService">
+            <inheritdoc />
+        </member>
+        <member name="M:HataPropertyService.Migrations.PropertyService.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:HataPropertyService.Migrations.PropertyService.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:HataPropertyService.Migrations.PropertyService.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:HataPropertyService.Migrations.addPropertyService">
+            <inheritdoc />
+        </member>
+        <member name="M:HataPropertyService.Migrations.addPropertyService.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:HataPropertyService.Migrations.addPropertyService.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:HataPropertyService.Migrations.addPropertyService.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
