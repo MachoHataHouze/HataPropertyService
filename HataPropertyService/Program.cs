@@ -100,14 +100,15 @@ builder.Services.AddSwaggerGen(options =>
 });
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowReactApp",
+    options.AddPolicy("AllowAll",
         builder =>
         {
-            builder.WithOrigins("http://localhost:3000")
+            builder.AllowAnyOrigin()
                 .AllowAnyHeader()
                 .AllowAnyMethod();
         });
 });
+
 
 
 var app = builder.Build();
@@ -123,7 +124,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors("AllowReactApp");
+app.UseCors("AllowAll");
 
 app.UseAuthentication();
 app.UseAuthorization();
